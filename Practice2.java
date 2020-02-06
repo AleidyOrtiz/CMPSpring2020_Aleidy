@@ -10,11 +10,11 @@ package Week2;
 			int num2 = keyboard.nextInt();
 			System.out.print("N3: ");
 			int num3 = keyboard.nextInt();
-			System.out.print(String.format(
-					"The product of  %d, %d, and %d is %d.",
+			System.out.print(String.format(	
+				"The product of  %d, %d, and %d is %d.",
 					num1, num2, num3, num1 * num2 * num3
 			));
-		}
+		}	
 	}
 
 	
