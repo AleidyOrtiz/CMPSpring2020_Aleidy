@@ -1,0 +1,29 @@
+  package week3;
+  
+  import java.util.Scanner;
+public class week3 {
+	public static void mian(String []args) {
+		Scanner scnr = new Scanner( System.in);
+		double userWeight;
+		double userHeight;
+		double bmi;
+		
+		System.out.println("User 1 enter your weight");
+		userWeight = scnr.nextDouble();
+		System.out.println("User 1 enter your height");
+		userHeight = scnr.nextDouble();
+    
+    System.out.println("User 2 please enter your weight");
+    userWeight = scnr.nextDouble();
+    System.out.println("User 2 please enter your height");
+    userHeight = scnr.nextDouble();
+    
+    System.out.println("User 3 enter your weight");
+		userWeight = scnr.nextDouble();
+		System.out.println("User 3 enter your height");
+		userHeight = scnr.nextDouble();
+    
+		bmi = (userWeight * 703) /(userHeight * userHeight);
+		System.out.pintln("your bim is");
+}
+}
